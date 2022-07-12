@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f477c124dc83d964fb157bfb8f932d72, type: 3}
+  m_Name: Terminal4
+  m_EditorClassIdentifier: 
+  terminalCode: "public GameObject[] furniture;\r\n\r\nvoid Start()\r\n{\r\n// We
+    use an if statement alongside a for loop here\r\n// so we can check our comparison
+    once per frame. \r\n// It's written \"if(ConditionHere)\". We want to use\r\n//The
+    unity function '.CompareTag(\"\")' is used to ensure\r\n//there are no game objects
+    with the tag \"box\" left in the\r\n//scene, as they shouldn't be here. \nfor(int
+    i = 0; i < furniture.Length; i++)\n{\nif(furniture[i].                              
+    \n{\n//We then use the Destroy() method shown before to remove \r\n//each game
+    object (furniture[i]) that uses the tag \"box\". \n\n}\n}\r\n}"
+  terminalName: 
+  answers:
+  - CompareTag("box"))
+  - Destroy(furniture[i]);
+  linesOfCodeNeeded: 2
+  lineOfCodeCompleted: 2
+  terminalNum: 3

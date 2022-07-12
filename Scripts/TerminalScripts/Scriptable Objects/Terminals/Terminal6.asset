@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f477c124dc83d964fb157bfb8f932d72, type: 3}
+  m_Name: Terminal6
+  m_EditorClassIdentifier: 
+  terminalCode: 'public GameObject[] furniture;
+
+    public Material[] furnitureMats;
+
+    //boolean
+    variables hold the value either true or false
+
+    public bool applyMaterials;
+
+
+
+    void
+    Start()
+
+    {
+
+    //We set the applyMaterials boolean to true here
+
+
+
+    if(applyMaterials
+    == true)
+
+    {
+
+    //We create a for loop using int i starting at zero and
+    ending
+
+    //with the furniture array length. Inside the for loop we use
+
+    //"furniture[i].GetComponent<Renderer>().material
+    = furnitureMats[i];"
+
+    //to get the correct material on its corresponding
+    GameObject
+
+
+    for(int i = 0; i < furniture.Length; i++)
+
+    {
+
+
+    }
+
+    }
+
+    }'
+  terminalName: 
+  answers:
+  - applyMaterials = true;
+  - furniture[i].GetComponent<Renderer>().material = furnitureMats[i];
+  linesOfCodeNeeded: 2
+  lineOfCodeCompleted: 2
+  terminalNum: 5

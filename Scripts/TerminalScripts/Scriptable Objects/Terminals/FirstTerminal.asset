@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f477c124dc83d964fb157bfb8f932d72, type: 3}
+  m_Name: FirstTerminal
+  m_EditorClassIdentifier: 
+  terminalCode: "public GameObject walls;\r\n\r\nvoid Start()\r\n{\r\n\r//We use
+    the unity function .SetActive() to enable or disable\n//a Game Object. walls.SetActive(true);
+    enables the walls, \n//.SetActive(false); disables it.  A line of code is always
+    \n//followed by a semicolon; to signify the end of the line.\n//The following
+    line of code disables the walls. \n\n}"
+  terminalName: one
+  answers:
+  - walls.SetActive(false);
+  linesOfCodeNeeded: 1
+  lineOfCodeCompleted: 0
+  terminalNum: 0
